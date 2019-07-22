@@ -19,6 +19,8 @@ object ValueType {
 
     //함수 정의
     def fn1(x: Int)={x*x};
+    //def fn1(x: Int): Int ={return x*x};
+
     def fn2(x: Any)={println(x)};
 
     fn2(fn1(5))
