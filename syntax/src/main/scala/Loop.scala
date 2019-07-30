@@ -22,7 +22,7 @@ object Loop {
 
     var x = 1
 
-    val loop = new Breaks;
+    val loop = new Breaks
 
     loop.breakable {
 
@@ -34,10 +34,18 @@ object Loop {
 
 
         if (x > 10)
-          break;
-        x += 1;
+          break
+        x += 1
       }
     }
+
+    //인덱스가 있는 for 문
+
+    /*
+    for((num, index) <- List.zipWithIndex) {
+      println(num, index)
+    }
+    */
 
   }
 }
